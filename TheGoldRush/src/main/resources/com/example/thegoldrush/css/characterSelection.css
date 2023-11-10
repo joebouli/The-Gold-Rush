@@ -1,0 +1,55 @@
+
+.root {
+    -fx-background-image: url("images/backgroundChooseCharacter.jpg");
+    -fx-background-size: cover;
+}
+
+.text {
+    -fx-fill: #b6aa76;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 0;
+}
+
+.backbutton {
+    -fx-background-image: url("images/backButton.png");
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50px 50px;
+    -fx-background-position: bottom left;
+    -fx-background-color: transparent;
+}
+
+.continuebutton {
+    -fx-background-image: url("images/continueButton.png");
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50px 50px;
+    -fx-background-position: bottom right;
+    -fx-background-color: transparent;
+}
+
+
+
+.choose-character-title {
+    -fx-font-family: 'Dancing Script';
+    -fx-font-weight: bold;
+    -fx-font-size: 36px;
+    -fx-fill: #070603;
+}
+
+
+.character-cost {
+    -fx-font-size: 14px;
+    -fx-fill: #FFD700;
+}
+

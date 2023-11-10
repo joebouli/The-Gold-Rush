@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+NP+Hmong:wght@500&display=swap');
+.root {
+    -fx-background-image: url("images/backgroundGameOver.png");
+    -fx-background-size: cover;
+}
+.playButton {
+    -fx-background-image: url("images/playbutton.png");
+    -fx-min-width: 160px;
+    -fx-min-height: 60px;
+    -fx-max-width: 160px;
+    -fx-max-height: 60px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 160px 60px;
+    -fx-background-color: transparent;
+}
+.backHomeButton {
+    -fx-background-image: url("images/backHomeButton.png");
+    -fx-min-width: 160px;
+    -fx-min-height: 60px;
+    -fx-max-width: 160px;
+    -fx-max-height: 60px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 160px 60px;
+    -fx-background-color: transparent;
+}

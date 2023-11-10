@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+NP+Hmong:wght@500&display=swap');
+.root {
+    -fx-background-image: url("images/backgroundPopup.png");
+    -fx-background-size: cover;
+}
+
+.textTitle {
+    -fx-fill: #b6aa76;
+    -fx-font-family: 'Noto Serif NP Hmong';
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 0;
+}
+/* button-style.css */
+.custom-button {
+    -fx-background-color: #b6aa76;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+.custom-button:hover {
+    -fx-background-color: #524c1a;
+    -fx-text-fill: white;
+}
+
+.custom-button:pressed {
+    -fx-background-color: #b6aa76;
+    -fx-text-fill: white;
+}

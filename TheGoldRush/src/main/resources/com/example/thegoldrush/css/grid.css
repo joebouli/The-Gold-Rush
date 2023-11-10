@@ -1,0 +1,137 @@
+.root {
+    -fx-background-image: url("images/backgroundGame.jpg");
+    -fx-background-size: cover; }
+
+.grid-cell {
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+    -fx-padding: 5px;
+}
+
+.game-info{
+    -fx-fill: white;
+}
+
+.pauseButton {
+    -fx-background-image: url("images/pauseButton.png");
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50px 50px;
+    -fx-background-position: bottom left;
+    -fx-background-color: transparent;
+    -fx-padding: 30px 0 0 0;
+}
+
+.resumeButton {
+    -fx-background-image: url("images/resumeButton.png");
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50px 50px;
+    -fx-background-position: bottom left;
+    -fx-background-color: transparent;
+    -fx-padding: 30px 0 0 0;
+}
+
+.restartButton {
+    -fx-background-image: url("images/restartButton.png");
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50px 50px;
+    -fx-background-position: bottom left;
+    -fx-background-color: transparent;
+    -fx-padding: 30px 0 0 0;
+}
+
+
+.helpButton {
+    -fx-background-image: url("images/helpButton.png");
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50px 50px;
+    -fx-background-position: bottom left;
+    -fx-background-color: transparent;
+    -fx-padding: 0 100px 0px 0;
+}
+
+.grid-cell-opened {
+    -fx-background-color: #c4b369;
+    -fx-border-width: 1px;
+    -fx-font-size: 16px;
+    -fx-padding: 5px;
+}
+
+.grid-cell-bomb {
+    -fx-background-image: url("images/soundbomb.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-font-size: 15px;
+
+}
+
+.characterButton {
+    -fx-background-image: url("images/timer.png");
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-max-width: 70px;
+    -fx-max-height: 70px;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 70px 70px;
+    -fx-background-color: transparent;
+    -fx-padding: 0px 0 0 0;
+}
+
+.hints-text {
+    -fx-fill: #ffffff;
+    -fx-font-family: 'Noto Serif NP Hmong';
+    -fx-font-size: 12px;
+}
+
+.grid-cell-flagged {
+    -fx-background-image: url("images/flagicon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-border-color: #ffffff;
+
+}
+
+
+
+.timer-text {
+    -fx-fill: #ffffff;
+    -fx-font-size: 20;
+}
+
+
+.gold-cell {
+    -fx-background-color: #FFD700;
+}
+
+.flag-cell {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: white;
+}
+
+.bombsNearby {
+    -fx-fill: RED;
+    -fx-font-size: 24 px;
+}
+

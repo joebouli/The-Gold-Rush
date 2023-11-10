@@ -1,0 +1,18 @@
+.root {
+    -fx-background-image: url("images/backgroundStayAlive.jpg");
+    -fx-background-size: cover; }
+
+
+.grid-cell {
+
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+    -fx-padding: 5px;
+}
+
+.game-info{
+    -fx-fill: white;
+
+}
